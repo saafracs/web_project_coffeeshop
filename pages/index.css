@@ -36,7 +36,7 @@ a {
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
 }
 
 .header__description {
@@ -47,7 +47,7 @@ a {
   margin: 28px 0 0 80px;
 }
 
-.header__title__span-accent {
+.header__span-accent {
   font-family: "Noto Serif", Arial, sans-serif;
   font-style: italic;
   font-size: 58px;
@@ -87,14 +87,24 @@ a {
   height: 568px;
 }
 
-.header__footer {
-  display: flex;
-  margin-top: auto;
-  justify-content: space-between;
+.header__paragraph {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: auto 0 40px 80px;
+}
+
+.header__paragraph:last-of-type {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
 }
 
 .recipes {
