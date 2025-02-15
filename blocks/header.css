@@ -12,18 +12,6 @@
   background-repeat: no-repeat;
 }
 
-.nav__link:hover {
-  color: #2f80ed;
-}
-
-.nav__links {
-  list-style-type: none;
-}
-
-.nav__link {
-  text-decoration: none;
-}
-
 .header__title {
   margin: 183px 0 0 80px;
   max-width: 709px;
