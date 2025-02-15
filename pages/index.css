@@ -252,25 +252,3 @@ a {
   border-radius: 2%;
   margin-right: 12px;
 }
-
-/*
-
-.form__label input[type="checkbox"] {
-  display: none;
-}
-
-.form__label .checkbox-modified {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-color: black;
-  border-radius: 2px;
-  margin: 0 12px 0 0;
-}
-
-.form__label input[type="checkbox"]:checked + checkbox-modified {
-  background-color: #2f80ed;
-  background-image: url(../images/check.svg);
-}
-
-/*
