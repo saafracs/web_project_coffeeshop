@@ -6,3 +6,10 @@
   min-width: 1100px;
   max-width: 1600px;
 }
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  border: none;
+}
