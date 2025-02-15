@@ -7,6 +7,7 @@
 
 .footer__social-link {
   color: white;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {
@@ -49,6 +50,7 @@
 }
 
 .footer__list {
+  list-style-type: none;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;

@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .recipes {
   background: #0a2750;
   background-image: url(../images/background_recipes.svg);
@@ -37,7 +41,7 @@
   height: 273px;
 }
 
-.recipes__video__caption {
+.recipes__video-caption {
   margin-top: 24px;
   display: flex;
   justify-content: space-between;
